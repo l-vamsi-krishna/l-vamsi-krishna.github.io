@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Vamsi Krishna's Blog"
 theme = "PaperMod"
 
+[outputs]
+    home = ["HTML", "RSS"]
+
 [author]
     name = "Vamsi Krishna"
 
