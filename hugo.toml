@@ -3,20 +3,22 @@ languageCode = "en-us"
 title = "Vamsi Krishna's Blog"
 theme = "PaperMod"
 
-# ADD THIS SECTION BELOW
 [author]
     name = "Vamsi Krishna"
 
+[services]
+  [services.rss]
+    limit = 20
+
 [params]
-    # This helps PaperMod fill in the metadata
     author = "Vamsi Krishna"
     ShowFullTextContent = true
+    # This enables the "Bio" section on your homepage
+    homeInfoParams:
+        Title: "Hi, I'm Vamsi Krishna 👋"
+        Content: "Sharing insights on Appian, AI."
 
 [[menu.main]]
     name = "Search"
     url = "search/"
     weight = 10
-
-[services]
-  [services.rss]
-    limit = 20
