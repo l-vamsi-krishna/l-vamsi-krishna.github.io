@@ -18,4 +18,8 @@ theme = "PaperMod"
 
 [services]
   [services.rss]
-    limit = 20 # Number of posts to show in the feed
+    limit = 20
+
+[params]
+    # This tells PaperMod specifically to include full content in RSS
+    ShowFullTextContent = true
