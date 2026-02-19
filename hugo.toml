@@ -11,6 +11,11 @@ theme = "PaperMod"
     # This helps PaperMod fill in the metadata
     author = "Vamsi Krishna"
 
+[[menu.main]]
+    name = "Search"
+    url = "search/"
+    weight = 10
+
 [services]
   [services.rss]
     limit = 20 # Number of posts to show in the feed
