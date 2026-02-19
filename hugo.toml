@@ -13,10 +13,6 @@ theme = "PaperMod"
 [params]
     author = "Vamsi Krishna"
     ShowFullTextContent = true
-    # This enables the "Bio" section on your homepage
-    homeInfoParams:
-        Title= "Hi, I'm Vamsi Krishna 👋"
-        Content= "Sharing insights on Appian, AI."
 
 [[menu.main]]
     name = "Search"
