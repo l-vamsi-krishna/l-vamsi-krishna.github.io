@@ -1,7 +1,7 @@
 +++
 date = '2026-02-19T18:07:59+05:30'
 draft = false
-title = 'Appian AI Composer'
+title = 'Appian Composer'
 +++
 
 * Appian Composer is a new feature available to all users since 25.4 version.
