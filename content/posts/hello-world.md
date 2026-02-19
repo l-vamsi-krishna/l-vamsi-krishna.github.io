@@ -6,4 +6,5 @@ title = 'Hello World'
 
 # Appian AI Commposer
 Appian AI Composer is a new feature available to all users in 25.4 versions under General availability.
-This is new feature is useful in onboarding new team members
+This is new feature is useful in onboarding new team members.  
+There are multiple tabs to plan out the application.

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on My Kali Blog</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on My Kali Blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Feb 2026 18:07:59 +0530</lastBuildDate>
@@ -14,7 +14,9 @@
       <pubDate>Thu, 19 Feb 2026 18:07:59 +0530</pubDate>
       <guid>http://localhost:1313/posts/hello-world/</guid>
       <description>&lt;h1 id=&#34;appian-ai-commposer&#34;&gt;Appian AI Commposer&lt;/h1&gt;
-&lt;p&gt;Appian AI Composer is a new feature available to all users in 25.4 versions under General availability.&lt;/p&gt;</description>
+&lt;p&gt;Appian AI Composer is a new feature available to all users in 25.4 versions under General availability.
+This is new feature is useful in onboarding new team members.&lt;br&gt;
+There are multiple tabs to plan out the application.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
