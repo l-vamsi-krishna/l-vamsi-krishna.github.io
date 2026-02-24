@@ -1,11 +1,11 @@
-+++
-date = '2026-02-23T18:07:59+05:30'
-draft = false
-title = 'Appian Integration with ChatGPT 1'
-description = 'A guide to integrate Appian with ChatGPT using OpenAI plugin.'
-cover = 
-  image = 'cover.jpeg'
-+++
+---
+date: '2026-02-23T18:07:59+05:30'
+draft: false
+title: 'Appian Integration with ChatGPT 1'
+description: 'A guide to integrate Appian with ChatGPT using OpenAI plugin.'
+cover:
+  image: 'cover.jpeg'
+---
 
 Appian is a low-code automation platform that enables organizations to quickly build, deploy, and scale enterprise-grade applications. On the other hand, ChatGPT is an advanced natural language processing AI model that can understand and generate human-like text.
 
