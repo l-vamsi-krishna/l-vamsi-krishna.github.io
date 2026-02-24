@@ -5,6 +5,9 @@ title: 'Appian Integration with ChatGPT'
 description: 'A guide to integrate Appian with ChatGPT using OpenAI plugin.'
 cover:
   image: 'cover.jpeg'
+  relative: false
+# Add this line for better RSS compatibility:
+images: ["cover.jpg"]
 ---
 
 Appian is a low-code automation platform that enables organizations to quickly build, deploy, and scale enterprise-grade applications. On the other hand, ChatGPT is an advanced natural language processing AI model that can understand and generate human-like text.
