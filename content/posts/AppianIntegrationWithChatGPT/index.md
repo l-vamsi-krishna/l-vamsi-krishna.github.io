@@ -1,7 +1,7 @@
 ---
 date: '2026-02-23T18:07:59+05:30'
 draft: false
-title: 'Appian Integration with ChatGPT 1'
+title: 'Appian Integration with ChatGPT'
 description: 'A guide to integrate Appian with ChatGPT using OpenAI plugin.'
 cover:
   image: 'cover.jpeg'
