@@ -1,5 +1,5 @@
 +++
-date = '2026-02-24T18:07:59+05:30'
+date = '2026-02-23T18:07:59+05:30'
 draft = false
 title = 'Jira Automation'
 +++
