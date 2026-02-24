@@ -22,8 +22,7 @@ Open [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/
 Step 3: Configure OpenAI Connected System in Appian
 
 Add the plugin (OpenAI) from Appian Admin Console.
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679983658942/ed49b1bb-6d7f-4f1b-a179-0ca98e8a2b13.png align="center")
+'plugin.png'
 
 Once the plugin is deployed, Create a new connected system, search and select OpenAI connected system.
 
