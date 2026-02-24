@@ -22,11 +22,11 @@ Open [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/
 Step 3: Configure OpenAI Connected System in Appian
 
 Add the plugin (OpenAI) from Appian Admin Console.
-'plugin.png'
+![plugin_image](plugin.png)
 
 Once the plugin is deployed, Create a new connected system, search and select OpenAI connected system.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679984442229/8894552b-f77a-49d0-b21a-f0c71396ec03.png align="center")
+![connectedSystem](connectedSystem.png)
 
 Enter the API key generated from step 2. The organization field is optional and can be left blank and save the connected System.
 
@@ -36,7 +36,7 @@ Create an integration object and select the OpenAI connected system created in s
 
 Select the Operation as "Open AI (Reads Data)" and select the Endpoint.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679989558365/7f0a11ab-8966-499e-9351-4aa0941f60c1.png align="center")
+![plugin-cs](plugin-cs.png)
 
 In the request body, give the below value.
 
@@ -50,7 +50,7 @@ In the request body, give the below value.
 
 Save the changes and click "Test Request". You would get the response from chatGPT API.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679990306372/d70b966b-f0e6-4f7e-8503-a7f2ef9842ce.png align="center")
+![response](chatGptResponse.png)
 
 You can play around with different endpoints and different models.
 
