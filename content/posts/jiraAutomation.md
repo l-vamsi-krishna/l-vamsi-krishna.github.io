@@ -1,4 +1,8 @@
-# Jira Automation
++++
+date = '2026-02-24T18:07:59+05:30'
+draft = false
+title = 'Jira Automation'
++++
 
 Jira is the most common bug-tracking tool used across the software industry.
 There are tasks that need to be done on a daily/weekly/sprint basis, and **Jira provides APIs** to perform many actions on the **issue/user story**.
