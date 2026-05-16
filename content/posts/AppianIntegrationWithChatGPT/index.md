@@ -57,4 +57,4 @@ Save the changes and click "Test Request". You would get the response from chatG
 
 You can play around with different endpoints and different models.
 
-Other models can be found at [https://platform.openai.com/docs/models/gpt-3](https://platform.openai.com/docs/models/gpt-3). I will be using "text-curie-001" model as it is faster and cheaper.
+Other models can be found at [https://platform.openai.com/docs/models/gpt-3](https://platform.openai.com/docs/models/gpt-3). I used "text-curie-001" model as it is faster and cheaper.

@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head>
-	<meta name="generator" content="Hugo 0.157.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Vamsi Krishna&#39;s Blog</title>
-
-<meta name="description" content="">
+<title>Appian Integration with ChatGPT | Vamsi Krishna&#39;s Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="A guide to integrate Appian with ChatGPT using OpenAI plugin.">
 <meta name="author" content="Vamsi Krishna">
-<link rel="canonical" href="http://localhost:1313/">
+<link rel="canonical" href="http://localhost:1313/posts/appianintegrationwithchatgpt/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -19,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/appianintegrationwithchatgpt/">
 <noscript>
     <style>
         #theme-toggle,
@@ -74,7 +72,7 @@
 
 </script>
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -111,53 +109,59 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
+<main class="main">
 
-<article class="first-entry"> 
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Appian Integration with ChatGPT
+    </h1>
+    <div class="post-description">
+      A guide to integrate Appian with ChatGPT using OpenAI plugin.
+    </div>
+    <div class="post-meta"><span title='2026-02-23 18:07:59 +0530 IST'>February 23, 2026</span>&nbsp;·&nbsp;<span>Vamsi Krishna</span>
+
+</div>
+  </header> 
 <figure class="entry-cover">
-            <img loading="lazy" src="http://localhost:1313/posts/appianintegrationwithchatgpt/cover.jpeg" alt="">
+            <img loading="eager" src="http://localhost:1313/posts/appianintegrationwithchatgpt/cover.jpeg" alt="">
+        
 </figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Appian Integration with ChatGPT
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Appian is a low-code automation platform that enables organizations to quickly build, deploy, and scale enterprise-grade applications. On the other hand, ChatGPT is an advanced natural language processing AI model that can understand and generate human-like text.
-In this article, we will discuss the steps to integrate Appian with ChatGPT.
-Step 1: Create an account in ChatGPT
-Open https://chat.openai.com and signup to create an account.
-Step 2: Generate API Key
-Open https://beta.openai.com/account/api-keys , and create a new secret key. Save the generated key.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-23 18:07:59 +0530 IST'>February 23, 2026</span>&nbsp;·&nbsp;<span>Vamsi Krishna</span></footer>
-  <a class="entry-link" aria-label="post link to Appian Integration with ChatGPT" href="http://localhost:1313/posts/appianintegrationwithchatgpt/"></a>
-</article>
+  <div class="post-content"><p>Appian is a low-code automation platform that enables organizations to quickly build, deploy, and scale enterprise-grade applications. On the other hand, ChatGPT is an advanced natural language processing AI model that can understand and generate human-like text.</p>
+<p>In this article, we will discuss the steps to integrate Appian with ChatGPT.</p>
+<p>Step 1: Create an account in ChatGPT</p>
+<p>Open <a href="https://chat.openai.com/">https://chat.openai.com</a> and signup to create an account.</p>
+<p>Step 2: Generate API Key</p>
+<p>Open <a href="https://beta.openai.com/account/api-keys">https://beta.openai.com/account/api-keys</a> , and create a new secret key. Save the generated key.</p>
+<p>Step 3: Configure OpenAI Connected System in Appian</p>
+<p>Add the plugin (OpenAI) from Appian Admin Console.
+<img alt="plugin_image" loading="lazy" src="/posts/appianintegrationwithchatgpt/plugin.png"></p>
+<p>Once the plugin is deployed, Create a new connected system, search and select OpenAI connected system.</p>
+<p><img alt="connectedSystem" loading="lazy" src="/posts/appianintegrationwithchatgpt/connectedSystem.png"></p>
+<p>Enter the API key generated from step 2. The organization field is optional and can be left blank and save the connected System.</p>
+<p>Step 4: Create integration.</p>
+<p>Create an integration object and select the OpenAI connected system created in step 3.</p>
+<p>Select the Operation as &ldquo;Open AI (Reads Data)&rdquo; and select the Endpoint.</p>
+<p><img alt="plugin-cs" loading="lazy" src="/posts/appianintegrationwithchatgpt/plugin-cs.png"></p>
+<p>In the request body, give the below value.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">model:</span> <span style="color:#f92672">&#34;text-curie-001&#34;</span>,  
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">prompt:</span> <span style="color:#f92672">&#34;who is michael jackson&#34;</span>,  
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">max_tokens:</span> <span style="color:#960050;background-color:#1e0010">1000,</span> 
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Save the changes and click &ldquo;Test Request&rdquo;. You would get the response from chatGPT API.</p>
+<p><img alt="response" loading="lazy" src="/posts/appianintegrationwithchatgpt/chatGptResponse.png"></p>
+<p>You can play around with different endpoints and different models.</p>
+<p>Other models can be found at <a href="https://platform.openai.com/docs/models/gpt-3">https://platform.openai.com/docs/models/gpt-3</a>. I used &ldquo;text-curie-001&rdquo; model as it is faster and cheaper.</p>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Jira Automation
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Jira is the most common bug-tracking tool used across the software industry. There are tasks that need to be done on a daily/weekly/sprint basis, and Jira provides APIs to perform many actions on the issue/user story.
-After I had learned the basics of Python, I was looking for ways to use the knowledge acquired. Since Python is a general-purpose programming language, I thought of automating some repetitive tasks and found Jira.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-23 18:07:59 +0530 IST'>February 23, 2026</span>&nbsp;·&nbsp;<span>Vamsi Krishna</span></footer>
-  <a class="entry-link" aria-label="post link to Jira Automation" href="http://localhost:1313/posts/jiraautomation/"></a>
-</article>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Appian Composer
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p> Appian Composer is a new feature available to all users since 25.4 version. It is available in plan view inside an application. It is useful to plan and layout the application requirments and provides general high level idea of the application. Mostly useful while onboarding new team members. </p>
   </div>
-  <footer class="entry-footer"><span title='2026-02-19 18:07:59 +0530 IST'>February 19, 2026</span>&nbsp;·&nbsp;<span>Vamsi Krishna</span></footer>
-  <a class="entry-link" aria-label="post link to Appian Composer" href="http://localhost:1313/posts/hello-world/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
 </article>
     </main>
     
