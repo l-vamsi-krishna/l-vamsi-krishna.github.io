@@ -21,11 +21,11 @@
                     {{- end }}
                     <img src="{{ $img.Permalink }}" alt="" aria-label="logo"
                         height="{{- site.Params.label.iconHeight | default "30" -}}"
-                        style="border-radius: 50%; object-fit: cover;">
+                        style="border-radius: 50%; object-fit: cover; aspect-ratio: 1;">
                 {{- else }}
                 <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
                     height="{{- site.Params.label.iconHeight | default "30" -}}"
-                    style="border-radius: 50%; object-fit: cover;">
+                    style="border-radius: 50%; object-fit: cover; aspect-ratio: 1;">
                 {{- end -}}
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
                     {{ site.Params.label.iconSVG | safeHTML }}
