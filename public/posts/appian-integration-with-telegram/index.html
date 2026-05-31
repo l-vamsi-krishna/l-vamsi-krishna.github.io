@@ -5,11 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>404 Page not found | Vamsi Krishna&#39;s Blog</title>
+<title>Appian Integration With Telegram | Vamsi Krishna&#39;s Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="Telegram is a popular messaging app that offers advanced features such as encryption, file sharing, and bots. Appian is a low-code platform that allows businesses to create custom enterprise applications quickly and efficiently.
+In this article, we will discuss the steps to integrate Appian with Telegram.
+Step 1: Create a Telegram Bot
+A bot is a special type of account that can send and receive messages automatically. In Telegram, search for BotFather and enter /start to start the conversation. Enter /newbot, give it a name (displayed in the chat), and a username which should end with bot.">
 <meta name="author" content="Vamsi Krishna">
-<link rel="canonical" href="http://localhost:1313/404.html">
+<link rel="canonical" href="http://localhost:1313/posts/appian-integration-with-telegram/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,7 +21,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/404.html">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/appian-integration-with-telegram/">
 <noscript>
     <style>
         #theme-toggle,
@@ -72,7 +75,7 @@
 
 </script>
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -110,7 +113,76 @@
     </nav>
 </header>
 <main class="main">
-<div class="not-found">404</div>
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Appian Integration With Telegram
+    </h1>
+    <div class="post-meta"><span title='2026-05-31 13:01:30 +0530 IST'>May 31, 2026</span>&nbsp;·&nbsp;<span>Vamsi Krishna</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager" src="http://localhost:1313/posts/appian-integration-with-telegram/cover.jpeg" alt="">
+        
+</figure>
+  <div class="post-content"><p>Telegram is a popular messaging app that offers advanced features such as encryption, file sharing, and bots. Appian is a low-code platform that allows businesses to create custom enterprise applications quickly and efficiently.</p>
+<p>In this article, we will discuss the steps to integrate Appian with Telegram.</p>
+<h2 id="step-1-create-a-telegram-bot">Step 1: Create a Telegram Bot<a hidden class="anchor" aria-hidden="true" href="#step-1-create-a-telegram-bot">#</a></h2>
+<p>A bot is a special type of account that can send and receive messages automatically. In Telegram, search for <strong>BotFather</strong> and enter <code>/start</code> to start the conversation. Enter <code>/newbot</code>, give it a name (displayed in the chat), and a username which should end with <code>bot</code>.</p>
+<p><img alt="BotFather" loading="lazy" src="/posts/appian-integration-with-telegram/image-1.png"></p>
+<p>Once you have created the bot, Telegram will provide you with an <strong>API key</strong>. This key is required to integrate Telegram with Appian.</p>
+<h2 id="step-2-get-chat-id">Step 2: Get Chat ID<a hidden class="anchor" aria-hidden="true" href="#step-2-get-chat-id">#</a></h2>
+<p>Search for the bot you created above in Telegram and send it a message.</p>
+<p><img alt="Send message to bot" loading="lazy" src="/posts/appian-integration-with-telegram/image-2.png"></p>
+<p>Create an Appian Integration object with the following values:</p>
+<ul>
+<li><strong>URL input</strong>: <code>https://api.telegram.org/bot&lt;your-bot-API-key&gt;/getUpdates</code></li>
+<li><strong>Method</strong>: <code>GET</code></li>
+</ul>
+<p>Test the integration. Save the highlighted <code>id</code> from the response — this is the <strong>chat ID</strong>, used to send messages.</p>
+<p><img alt="Chat ID response" loading="lazy" src="/posts/appian-integration-with-telegram/image-3.png"></p>
+<h2 id="step-3-send-a-message">Step 3: Send a Message<a hidden class="anchor" aria-hidden="true" href="#step-3-send-a-message">#</a></h2>
+<p>Create another integration object with the following values:</p>
+<ul>
+<li><strong>URL input</strong>: <code>https://api.telegram.org/bot&lt;your-bot-API-key&gt;/sendMessage</code></li>
+<li><strong>Method</strong>: <code>GET</code></li>
+</ul>
+<p><strong>Query Parameters:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>text</code></td>
+          <td>&ldquo;Message to send&rdquo;</td>
+      </tr>
+      <tr>
+          <td><code>chat_id</code></td>
+          <td>ID from Step 2</td>
+      </tr>
+  </tbody>
+</table>
+<p><img alt="Integration setup" loading="lazy" src="/posts/appian-integration-with-telegram/image-4.png"></p>
+<p>If the integration is working correctly, the message should be received in Telegram.</p>
+<p><img alt="Message received" loading="lazy" src="/posts/appian-integration-with-telegram/image-5.png"></p>
+<p>Once the integration is complete, you can use it to receive notifications and send messages directly from Appian to Telegram.</p>
+<p>In conclusion, integrating Appian with Telegram is a simple and effective way to improve communication and collaboration within your organization.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
     </main>
     
 <footer class="footer">
