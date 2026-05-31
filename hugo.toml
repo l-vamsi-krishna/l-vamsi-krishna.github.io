@@ -22,6 +22,10 @@ theme = "PaperMod"
     author = "Vamsi Krishna"
     ShowFullTextContent = true
 
+    [params.label]
+    icon = "profile.jpg"
+    iconHeight = 30
+
 [[menu.main]]
     name = "About"
     url = "about/"
