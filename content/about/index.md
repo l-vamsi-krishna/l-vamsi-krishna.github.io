@@ -1,6 +1,5 @@
 ---
-title: 'About'
-description: 'About Vamsi Krishna'
+title: 'About Me'
 hideMeta: true
 ShowBreadCrumbs: false
 ---
