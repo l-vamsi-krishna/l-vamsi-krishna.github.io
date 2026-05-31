@@ -23,7 +23,7 @@ theme = "PaperMod"
     ShowFullTextContent = true
 
     [params.label]
-    icon = "profile.jpg"
+    icon = "/profile.jpg"
     iconHeight = 30
 
 [[menu.main]]
