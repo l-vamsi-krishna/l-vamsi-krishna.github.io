@@ -13,6 +13,11 @@ theme = "PaperMod"
   [services.rss]
     limit = 20
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
     author = "Vamsi Krishna"
     ShowFullTextContent = true

@@ -5,6 +5,8 @@ hideMeta: true
 ShowBreadCrumbs: false
 ---
 
+<img src="profile.jpg" alt="Profile picture" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; display: block; margin-bottom: 1rem;" />
+
 Hi, I'm **Vamsi Krishna** — a software engineer passionate about automation, low-code platforms, and building things that make life easier.
 
 I write about my experiences with tools like **Appian**, **Telegram bots**, **ChatGPT integrations**, and anything else I find interesting along the way.
