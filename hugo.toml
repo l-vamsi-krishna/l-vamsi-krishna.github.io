@@ -21,7 +21,8 @@ theme = "PaperMod"
 [params]
     author = "Vamsi Krishna"
     ShowFullTextContent = true
-
+    
+google-site-verification="yGk7oNwk_vEJwmSeO2BWkJuX43-6vpgNzWTvjWBL88s"
     [params.label]
     icon = "/profile.jpg"
     iconHeight = 30
