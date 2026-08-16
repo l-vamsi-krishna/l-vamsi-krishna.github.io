@@ -1,2 +1,15 @@
 # Hugo build output
 public/
+
+# Hugo image processing cache
+resources/
+
+# Agent instructions (personal preferences)
+AGENTS.md
+
+# Generated external assets
+linkedin-banner.png
+IMG-20251224-WA0011.jpg
+
+# Session changelog
+CHANGELOG.md
